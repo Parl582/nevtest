@@ -11,8 +11,8 @@ import {
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import PopOver from "@/components/PopOver/LanguagePopOver";
-import NotificationPopOver from "@/components/PopOver/NotificationPopOver";
+// import PopOver from "@/components/PopOver/LanguagePopOver";
+// import NotificationPopOver from "@/components/PopOver/NotificationPopOver";
 import { useSearchParams } from "next/navigation";
 import MobileHeader from "./MobileHeader";
 
@@ -73,10 +73,10 @@ const Header = () => {
             <User2 strokeWidth={0.8} />
             <span> Login </span>
           </Link>
-
+{/* 
           <NotificationPopOver />
 
-          <PopOver selectedLanguage={selectedLanguage} />
+          <PopOver selectedLanguage={selectedLanguage} /> */}
         </div>
       </div>
 
