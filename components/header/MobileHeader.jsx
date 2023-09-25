@@ -59,8 +59,6 @@ const MobileHeader = () => {
   // })
   const show = useScrollHeight();
 
-//   console.log(show);
-  console.log(window.scrollY);
   return (
     <div className="top-0 sticky">
       {/* <Headroom> */}
